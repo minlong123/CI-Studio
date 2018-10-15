@@ -1,0 +1,55 @@
+		*{padding:0;margin:0;}
+		#navigation>ul{
+			list-style:none;
+			float:left;
+			height:47px;
+			margin-left:100px;
+		}
+		#navigation>#navigation_Other{
+			float:right;
+		}
+		#navigation #navigation_Other a{
+			text-decoration: none;
+		}
+
+		/*这里还差一张背景图片*/
+/*		#navigation_Other .span2{
+			display:block;
+			height:50px;
+			width:50px;
+			background-image:url('data/easyui/themes/icons/more.png');
+		}*/
+/*		#navigation ul a{
+			display: block;
+		}*/
+		#navigation>ul>li{
+			float:left;
+			height:50px;
+			width:70px;
+			text-align: center;
+			line-height:50px;
+		}
+		#navigation>ul>li>a{
+			text-decoration:none;
+			font-weight:bold;
+			color:black;
+			display:block;
+			height:100%;
+			width:100%;
+		}
+		#navigator>li{
+			padding-left:5px;
+		}
+		.select_style{
+			background:#eeeeee;
+			border:1px solid #ccc;
+		}
+		#navigator>li>a:hover{
+			border:1px solid #ccc;
+			background:#eeeeee;
+			cursor:pointer;
+		}
+		#navigation_Other li .l-btn-text{
+			line-height:50px;
+		}
+		/*导航样式结束*/

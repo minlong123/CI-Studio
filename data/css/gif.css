@@ -1,0 +1,59 @@
+*{padding:0;margin:0;}
+		/*学员搜索管理一栏样式开始*/
+		.student_list>li{
+			list-style: none;
+			float:left;
+			padding:0 15px;
+			line-height:50px;
+		}
+		.student_list>li:nth-child(1){
+			font-size:25px;
+			font-weight:bold;
+		}
+		.student_list>li:nth-child(2) input{
+			height:30px;
+			width:300px;
+		}
+		.student_list>li:nth-child(3){
+			margin-left:-18px;
+			line-height:45px;
+		}
+		.student_list>li:nth-child(4){
+			line-height:45px;
+		}
+		.student_list>li:nth-child(5){
+			line-height:45px;
+			float:right;
+		}
+		/*学员搜索管理一栏样式结束*/
+
+
+		/*增加礼物样式开始*/
+		#fm{
+			margin-left:20px;
+		}
+		#fm p{
+			display:block;
+			margin-top:15px;
+		}
+		#fm p label{
+			display: inline-block;
+			width:65px;
+			font-size:15px;
+		}
+		/*增加礼物样式设置结束*/
+
+		/*修改礼物样式设置开始*/
+		#fo{
+			margin-left:20px;
+		}
+		#fo p{
+			display:block;
+			margin-top:15px;
+		}
+		#fo p label{
+			display: inline-block;
+			width:65px;
+			font-size:15px;
+		}
+		/*修改礼物样式设置结束*/

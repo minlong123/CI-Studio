@@ -1,0 +1,56 @@
+		*{padding:0;margin:0;}
+		/*搜索管理一栏样式开始*/
+		.student_list>li{
+			list-style: none;
+			float:left;
+			padding:0 15px;
+			line-height:50px;
+		}
+		.student_list>li:nth-child(1){
+			font-size:25px;
+			font-weight:bold;
+		}
+		.student_list>li:nth-child(2){
+			margin-left:20px;
+			line-height:45px;
+		}
+		.student_list>li:nth-child(3){
+			line-height:45px;
+		}
+		.datagrid-row{
+			height:45px;
+		}
+		/*搜索管理一栏样式结束*/
+
+		/*fom表单输入样式设置*/
+		#fom{
+			height:400px;
+			width:500px;
+			margin:40px 30px;
+		}
+		#fom p{
+			margin-top:20px;
+		}
+		#fom p label{
+			display:inline-block;
+			width:80px;
+		}
+		#fom p a{
+			margin-left:130px;
+		}
+		/*fom表单输入样式结束*/
+
+		/*修改密码面板样式设置开始*/
+		#fff{
+			height:100px;
+			width:260px;
+			margin:15px 0 0 13px;
+		}
+		#fff p{
+			margin-top:18px;
+		}
+		#fff p label{
+			display:inline-block;
+			width:80px;
+		}
+		/*修改密码面板样式设置结束*/

@@ -1,0 +1,177 @@
+		*{padding:0;margin:0;}
+		/*学员搜索管理一栏样式开始*/
+		.student_list{
+			margin-left:25%;
+		}
+		.student_list>li{
+			list-style: none;
+			float:left;
+			padding:0 15px;
+			line-height:50px;
+		}
+		.student_list>li:nth-child(1){
+			font-size:20px;
+			font-weight:bold;
+		}
+		.student_list>li:nth-child(2) input{
+			height:30px;
+			width:300px;
+		}
+		.student_list>li:nth-child(3){
+			margin-left:-18px;
+			line-height:45px;
+		}
+
+/*		#search_data{
+			border:1px solid #ccc;
+		}*/
+		/*学员搜索管理一栏样式结束*/
+
+		/*学员签到一栏样式开始*/
+		#student_search_data{
+			padding:10px;
+			height:400px;
+			overflow-x:hidden;
+			overflow-y:auto;
+			border-bottom:1px solid #ccc;
+			display: none;
+		}
+		#student_search_name{
+			height:28px;
+			width:395px;
+			border:1px solid #ccc;
+			border-radius:5px;
+			margin-left:10px;
+		}
+		.search_index{
+			font-size:20px;
+			font-weight:bold;
+			padding:10px;
+			color:black;
+			display:none;
+		}
+		#student_search_submit{
+			height:70px;
+			width:90%;
+			border:1px solid #ccc;
+			padding:10px;
+			margin:10px;
+			overflow-x:hidden;
+			overflow-y:auto;
+			display: none;
+		}
+		#student_search_submit>div{
+			margin-top:15px;
+		}
+		/*学员签到一栏样式结束*/
+
+
+		/*老师签到一栏样式开始*/
+		#start_teacher{
+			padding:10px;
+			height:400px;
+			overflow-x:hidden;
+			overflow-y:auto;
+			border-bottom:1px solid #ccc;
+			display: none;
+		}
+		#teacher_search_submit{
+			height:70px;
+			width:90%;
+			border:1px solid #ccc;
+			padding:10px;
+			margin:10px;
+			overflow-x:hidden;
+			overflow-y:auto;
+			display: none;
+		}
+		#teacher_search_submit>div{
+			margin-top:25px;
+		}
+		.teacher_index{
+			font-size:20px;
+			font-weight:bold;
+			padding:10px;
+			color:black;
+		}
+		/*老师签到一栏样式结束*/
+
+		/*搜索弹出下拉框datagrid表格样式设置*/
+		#student_border{
+			position:absolute;
+		}
+		#student_dg{
+			display:none;
+		}
+
+/*搜索弹出下拉框datagrid表格样式设置结束*/
+
+/*学生详情信息样式设置开始*/
+		#tab tr input{
+			border:0;
+			outline:none;
+			border-bottom:1px solid #ccc;
+			text-align: center;
+			width:120px;
+		}
+		#student_details{
+			overflow-x:hidden;
+			overflow-y:auto;
+		}
+		#student_details_data{
+			overflow-x:hidden;
+			overflow-y:hidden;
+		}
+/*学生详情信息样式设置结束*/
+	
+	/*基本状况内容设置*/
+		#tabb{
+			background-color:#FFFFFF;
+		}
+		#tabb th{
+			border-right:1px solid #ccc;
+			text-align: center;
+			font-size: 30px;
+		}
+/*基本状况内容设置结束*/
+
+
+/*学员课程录入dialog样式设置开始*/
+		#course_add p{
+			display:block;
+			height:43px;
+			width:99%;
+			border:1px solid #ccc;
+			overflow:hidden;
+		}
+		#course_add p label{
+			display: inline-block;
+			height:100%;
+			width:90px;
+			font-size:18px;
+			background:green;
+			line-height:43px;
+			text-align:right;
+		}
+		#course_add p input{
+			height:100%;
+			width:59%;
+			outline:none;
+			border:none;
+			font-size:20px;
+		}
+	/*学员课程录入dialog样式设置结束*/
+
+		#tabbb tr input{
+			border:0;
+			outline:none;
+			border-bottom:1px solid #ccc;
+			text-align: center;
+			width:241px;
+		}
+		#student_details_data{
+			display: none;
+		}
+		#course_add{
+			display: none;
+		}

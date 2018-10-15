@@ -1,0 +1,58 @@
+		#login_window{
+			width:280px;
+			height:250px;
+			margin:20% auto;
+			background:rgba(255, 255, 255, 0.2);
+			border-radius:8px;
+		}
+		#login_window #on{
+			height:45px;
+			width:auto;
+			background:rgba(255, 255, 255, 0.3);
+			font-size:25px;
+			color:white;
+			line-height:45px;
+			font-weight:bold;
+		}
+		#login_window #on span{
+			margin-left:5px;
+		}
+		#login_window #logon_form{
+			color:white;
+			font-weight: bold;
+			margin:20px auto;
+		}
+		#fom{
+			height:164px;
+			width:260px;
+			margin:5px auto;
+		}
+		#fom p{
+			text-align: center;
+		}
+		#fom p label{
+			display:inline-block;
+			width:150px;
+			margin-bottom:3px;
+			margin-right:90px;
+
+		}
+		#fom p input{
+			width:218px;
+			outline:none;
+			font-weight: bold;
+			height:23px;
+		}
+		#fom p a{
+			display: inline-block;
+			height:25px;
+			width:218px;
+			text-decoration: none;
+			color:white;
+			background:rgba(255,255,255,0.2);
+			line-height:25px;
+
+		}
+		body{
+			background:url('data/images/1.jpg');
+		}

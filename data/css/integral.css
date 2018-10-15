@@ -1,0 +1,110 @@
+/*导航栏样式开始*/
+		*{padding:0;margin:0;}
+		/*学员搜索管理一栏样式开始*/
+		.student_list>li{
+			list-style: none;
+			float:left;
+			padding:0 15px;
+			line-height:50px;
+		}
+		.student_list>li:nth-child(1){
+			font-size:25px;
+			font-weight:bold;
+		}
+		.student_list>li:nth-child(2) input{
+			height:30px;
+			width:300px;
+		}
+		.student_list>li:nth-child(3){
+			margin-left:-18px;
+			line-height:45px;
+		}
+		.student_list>li:nth-child(4){
+			line-height:45px;
+		}
+		.student_list>li:nth-child(5){
+			line-height:45px;
+			float:right;
+		}
+		/*学员搜索管理一栏样式结束*/
+
+		/*奖励小爱心样式一栏开始*/
+		#reward_love{
+			height:138px;
+			width:300px;
+		}
+		#reward_love p{
+			display:block;
+			height:45px;
+			width:100%;
+			border-bottom:1px solid #ccc;
+			text-align:left;
+			line-height:45px;
+			overflow:hidden;
+		}
+		#reward_love p label{
+			width:30%;
+			display:inline-block;
+			background:green;
+			float:left;
+			text-align: center;
+			color:white;
+			font-size:20px;
+		}
+		#reward_love p input{
+			width:68%;
+			float:left;
+			height:45px;
+			font-size:25px;
+			outline:none;
+			border:0;
+		}
+		#fom>p>span{
+			display:inline-block;
+			width:68%;
+			height:45px;
+			float:left;
+			padding-top:8px;
+
+		}
+		#fom>p>span>a{
+			display:block;
+			height:30px;
+			width:30px;
+			line-height:30px;
+			float:left;
+
+		}
+		#btn_add_love>img{
+			line-height:30px;
+		}
+		#fom p .btn_lovee{
+			display:none;
+		}
+		#hend_cursor{
+			cursor:default;
+		}
+		.datagrid-row{
+			height:36px;
+		}
+		/*奖励小爱心样式一栏结束*/
+		/*兑换礼物样式设置开始*/
+		#other_details{
+			height:100%;
+			width:100%;
+			line-height:50px;
+			font-size:20px;
+		}
+		#other_details>span{
+			margin-left:20px;
+		}
+		#other_details>span>input{
+			font-size:20px;
+			outline:none;
+			border:none;
+			width:50px;
+		}
+/*		#exchange_gif{
+			margin-bottom:50px;
+		}*/
+		/*兑换礼物样式设置结束*/

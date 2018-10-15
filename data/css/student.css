@@ -1,0 +1,153 @@
+	/*导航栏样式开始*/
+		*{padding:0;margin:0;}
+		/*学员搜索管理一栏样式开始*/
+		.student_list>li{
+			list-style: none;
+			float:left;
+			padding:0 15px;
+			line-height:50px;
+		}
+		.student_list>li:nth-child(1){
+			font-size:25px;
+			font-weight:bold;
+		}
+		.student_list>li:nth-child(2) input{
+			height:30px;
+			width:300px;
+		}
+		.student_list>li:nth-child(3){
+			margin-left:-18px;
+			line-height:45px;
+		}
+		.student_list>li:nth-child(4){
+			line-height:45px;
+		}
+		.student_list>li:nth-child(5){
+			line-height:45px;
+			float:right;
+		}
+		/*学员搜索管理一栏样式结束*/
+
+		/*增加学生信息样式*/
+		#fm p{
+			display:block;
+			height:40px;
+			width:784px;
+			border:1px solid #eeeeee;
+			overflow:hidden;
+		}
+		#fm p label{
+			display:inline-block;
+			height:100%;
+			width:80px;
+			background:#ADD0B2;
+			color:#fff;
+			text-align:right;
+			line-height:40px;
+			font-size:16px;
+
+		}
+		#fm p input{
+			display:inline-block;
+			height:100%;
+			width:165px;
+			position:relative;
+			left:-5px;
+			line-height:40px;
+			outline:none;
+			border:0px;
+			background:#fff;
+			font-size:20px;
+		}
+		#fm select{
+			display:block;
+			text-align: center;
+			line-height:40px;
+			outline:none;
+			border:0;
+		}
+		/*增加学生样式信息结束*/
+
+		/*修改学生样式信息开始*/
+		#edit_fm p{
+			display:block;
+			height:40px;
+			width:784px;
+			border:1px solid #eeeeee;
+			overflow:hidden;
+		}
+		#edit_fm p label{
+			display:inline-block;
+			height:100%;
+			width:80px;
+			background:#ADD0B2;
+			color:#fff;
+			text-align:right;
+			line-height:40px;
+			font-size:16px;
+
+		}
+		#edit_fm p input{
+			display:inline-block;
+			height:100%;
+			width:165px;
+			position:relative;
+			left:-5px;
+			line-height:40px;
+			outline:none;
+			border:0px;
+			background:#fff;
+			font-size:20px;
+		}
+		#edit_fm select{
+			display:block;
+			text-align: center;
+			line-height:40px;
+			outline:none;
+			border:0;
+		}
+
+		/*修改学生样式信息结束*/
+
+		/*新报名弹出框样式设置*/
+		#fomm p{
+			display:block;
+			height:40px;
+			width:255px;
+			border:1px solid #eeeeee;
+			overflow:hidden;
+		}
+		#fomm p label{
+			display:inline-block;
+			height:100%;
+			width:80px;
+			background:#ADD0B2;
+			color:#fff;
+			text-align:right;
+			line-height:40px;
+			font-size:16px;
+
+		}
+		#fomm p input{
+			display:inline-block;
+			height:100%;
+			width:165px;
+			position:relative;
+			left:-5px;
+			line-height:40px;
+			outline:none;
+			border:0px;
+			background:#fff;
+			font-size:20px;
+		}
+		/*新报名弹出框样式设置结束*/
+
+
+		/*学员详情样式开始*/
+		#tab tr input{
+			border:0;
+			outline:none;
+			border-bottom:1px solid #ccc;
+			text-align: center;
+		}
+		/*学员详情样式结束*/
